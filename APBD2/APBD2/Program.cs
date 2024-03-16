@@ -16,3 +16,17 @@ static double Func1(int[] numbers)
 
     return (double) sum / numbers.Length;
 }
+
+static double Func2(int[] numbers)
+{
+    int max = 0;
+    foreach (var number in numbers)
+    {
+        if (number > max)
+        {
+            max = number;
+        }
+    }
+
+    return max;
+}
