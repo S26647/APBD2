@@ -8,13 +8,13 @@ Console.WriteLine("Modyfikacja 3");
 
 static double Func1(int[] numbers)
 {
-    int sum = 0;
+    int sum2 = 0;
     foreach (var number in numbers)
     {
-        sum += number;
+        sum2 += number;
     }
 
-    return (double) sum / numbers.Length;
+    return (double) sum2 / numbers.Length;
 }
 
 static double Func2(int[] numbers)
